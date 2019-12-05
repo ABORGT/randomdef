@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+
+import sys
+from randomdef import randomDefinition
+
+
+# Start by grabbing a word or phrase from the command line
+inword = ' '.join(sys.argv[1:])
+
+# First, print the word, along with its definition
+print("\nFirst, one without an example:\n")
+butts = randomDefinition(inword)
+butts.get_synset()
+butts.print_output()
+
+# Second, print the word, its definition, and attempt to print an example
+print("\nNext, print one with an example:\n")
+examplebutts = randomDefinition(inword, showexample=True)
+examplebutts.get_synset()
+examplebutts.print_output()
+print("\n")
