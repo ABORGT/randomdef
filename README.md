@@ -26,7 +26,7 @@ Getting started is easy; just pull a copy of the repository down to your local e
 
 ### Prerequisites
 
-RandomDef is built using NLTK 3.1 or higher.
+RandomDef is built using NLTK 3.4.5 or higher.
 
 ```
 pip install --user -U nltk
