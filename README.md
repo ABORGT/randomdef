@@ -7,13 +7,11 @@ RandomDef is a class used to generate 100% accurate definitions for arbitrary wo
 ```
 ./define word
 
-
 The definition of word is:
 of or relating to measurements of the depths of oceans or lakes
 
 
 ./definewithexample arbitrary phrase
-
 
 The definition of arbitrary phrase is:
 consisting of or having the character of loam
