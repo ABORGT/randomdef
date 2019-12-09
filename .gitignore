@@ -1,0 +1,6 @@
+# Ignore cached/compiled files
+__pycache__/
+*.pyc
+
+# Ignore test stuff
+.pytest_cache/
