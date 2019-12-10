@@ -33,9 +33,9 @@ pip install --user -U nltk
 
 ## Running the tests
 
-Testing is done with pytest, but will probably move to something else in future. To run test, just run:
+Testing is done with pytest and the pytest-cov plugin. To run tests:
 ```
-pytest
+pytest --cov=randomdef
 ```
 
 ## Contributing
