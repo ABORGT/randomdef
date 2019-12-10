@@ -4,3 +4,4 @@ __pycache__/
 
 # Ignore test stuff
 .pytest_cache/
+.coverage
