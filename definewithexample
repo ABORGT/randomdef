@@ -7,9 +7,9 @@ from randomdef import randomDefinition
 # Start by grabbing a word or phrase from the command line
 inword = ' '.join(sys.argv[1:])
 
-# Print the word or phrase, along with its definition
+# Print the word or phrase, its definition, and attempt to print an example
 print("\n")
-word = randomDefinition(inword)
-word.get_synset()
-word.print_output()
+exampleword = randomDefinition(inword, showexample=True)
+exampleword.get_synset()
+exampleword.print_output()
 print("\n")

@@ -5,24 +5,23 @@ RandomDef is a class used to generate 100% accurate definitions for arbitrary wo
 ## Example Usage:
 
 ```
-./define butts
+./define word
 
-First, one without an example:
+The definition of word is:
+of or relating to measurements of the depths of oceans or lakes
 
-The definition of butts is:
-an upward movement (especially a rhythmical rising and falling)
 
-Next, print one with an example:
+./definewithexample arbitrary phrase
 
-The definition of butts is:
-of or relating to or involved the practice of aiding the memory
-Example: butts device
+The definition of arbitrary phrase is:
+consisting of or having the character of loam
+Example: richy arbitrary phrase soil
 ```
 
 
 ## Getting Started
 
-Getting started is easy; just pull a copy of the repository down to your local environment and get started. Example scripts are included to give you an idea of how things work.
+Getting started is easy; just pull a copy of the repository down to your local environment and start messing around. Example scripts are included to give you an idea of how things work.
 
 ### Prerequisites
 
@@ -34,7 +33,7 @@ pip install --user -U nltk
 
 ## Running the tests
 
-Testing is done with pytest, but will probably move to something else in future.
+Testing is done with pytest, but will probably move to something else in future. To run test, just run:
 ```
 pytest
 ```
