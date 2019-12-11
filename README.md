@@ -25,10 +25,10 @@ Getting started is easy; just pull a copy of the repository down to your local e
 
 ### Prerequisites
 
-RandomDef is built using NLTK 3.4.5 or higher.
+RandomDef is built using Python 3.6.9 or higher and NLTK 3.4.5 or higher. From within your virtualenv, run:
 
 ```
-pip install --user -U nltk
+pip install requirements.txt
 ```
 
 ## Running the tests
