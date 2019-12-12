@@ -9,6 +9,7 @@ before_install:
   - pip install -U pytest-cov
 install:
   - pip install -r requirements.txt
+  - python -c "import nltk; nltk.download('words')"
 script:
   - pytest --cov=randomdef
   - coverage report -m
